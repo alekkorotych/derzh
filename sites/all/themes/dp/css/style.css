@@ -1,0 +1,80 @@
+/**
+ * This file should get overwritten if Method 1 is used. If Method 2 is chosen,
+ * remove this comment and start adding your styles to this file.
+ */
+
+.navbar-fixed-top {
+  background: #f6f7f7;
+  border-bottom-color: #fae952;
+  border-bottom-width: 4px;
+  border-bottom-style: solid;
+/*   background: linear-gradient(182deg, #23bcf5, #e4f779);
+  background-size: 400% 400%;
+
+  -webkit-animation: AnimationName 18s ease infinite;
+  -moz-animation: AnimationName 18s ease infinite;
+  animation: AnimationName 18s ease infinite; */
+}
+/* @-webkit-keyframes AnimationName {
+    0%{background-position:55% 0%}
+    50%{background-position:46% 100%}
+    100%{background-position:55% 0%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:55% 0%}
+    50%{background-position:46% 100%}
+    100%{background-position:55% 0%}
+}
+@keyframes AnimationName {
+    0%{background-position:55% 0%}
+    50%{background-position:46% 100%}
+    100%{background-position:55% 0%}
+} */
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+  opacity : 0.8;
+}
+
+.page-node-3 .page-header {
+  display: none; 
+}
+
+.menu li a {
+  text-transform: uppercase;
+}
+
+.navbar-collapse li .active {
+  margin-bottom: -5px;  
+  border-bottom: 4px solid #F4DC2A !important;
+  background-color: #F0EFEF !important;
+}
+
+.navbar-header .logo {
+  height: 34px;
+  margin-top: 1px;
+}
+
+.navbar-header .name {
+  text-shadow: 1px 1px #E5E5E5;
+  margin-left: -30px !important;
+  padding-top: 5px;
+  width: 180px;
+  line-height: 14px;
+  color: #989898;
+  font-size: 12px;
+  word-wrap: word-wrap: break-word;
+  -ms-transform: skewX(-17deg); /* IE 9 */
+  -webkit-transform: skewX(-17deg); /* Safari */
+  transform: skewX(-17deg); /* Standard syntax */
+  font-family: Arial;
+}
+
+.pane-title {
+   border-bottom: 2px solid #fff6b3;
+}
+
+@media (min-width: 1200px) {
+  .container {
+/*     width: 1070px; */
+  }
+}
